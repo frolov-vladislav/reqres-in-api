@@ -16,6 +16,7 @@
 
 # Package Files #
 
+*.jar
 
 *.war
 
@@ -66,3 +67,5 @@ target/
 /gradlew.bat
 
 .todo
+
+*.properties
