@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 import static java.lang.String.format;
 import static org.hamcrest.Matchers.is;
 
-public class ReqresApiTests extends TestBase {
+public class RegressApiTests extends TestBase {
 
     @Test
     public void getSingleUser() {
