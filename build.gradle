@@ -1,5 +1,6 @@
 plugins {
     id 'java-library'
+    id "io.freefair.lombok" version "8.4"
 }
 
 repositories {
@@ -13,7 +14,9 @@ dependencies {
             "io.rest-assured:rest-assured:5.3.0",
             "org.assertj:assertj-core:3.24.2",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion",
-            "com.github.javafaker:javafaker:1.0.2")
+            "com.github.javafaker:javafaker:1.0.2",
+            "com.fasterxml.jackson.core:jackson-databind:2.15.2")
+
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
 }
 
